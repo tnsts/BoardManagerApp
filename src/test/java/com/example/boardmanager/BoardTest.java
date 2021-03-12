@@ -41,7 +41,7 @@ public class BoardTest {
 
     @BeforeAll
     public void init() {
-        int n = 2;
+        int n = 15;
         boards = dbDataGenerator.generateBoards(n);
         dbDataGenerator.generateTasks(n, dbDataGenerator.generateColumns(n, boards));
     }
